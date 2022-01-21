@@ -321,13 +321,13 @@ footer{
     }
     
 }
+@media screen and (max-width:517px){
+    .logo{
+        flex-direction: column;
+    }
 @media screen and (max-width:490px){
     .card img{
         height: 150px;
     }
 }
-@media screen and (max-width:440px){
-    .logo{
-        flex-direction: column;
-    }
 }
