@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+html{
+    width: 100%;
+}
+body{
+    width:100%;
+    height: 100vh;
+    font-family: "El Messiri";
+    position: relative;
+    background-image: url(./imagens/pexels-olga-lioncat-7245368.jpg);
+    
+}
+button{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.698);
+}
+
+
+header .one{
+    width:100%;
+    height: 70px;
+    position: relative;
+       
+}
+.one a{
+    color: black;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+    margin-left: 5px;
+}
+.one a:hover{
+    background: rgba(0, 0, 0, 0.623);
+    color: rgb(125, 219, 172) ;
+}
+.one{
+    background: linear-gradient(200deg, #2f45465b, #25faef8a);
+}
+
+.logo{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    text-transform: uppercase;
+    
+}
+.logo span{
+    padding: 15px 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+   padding: 5px 5px;
+}
+a{
+    text-decoration: none;
+}
+
+main .main{
+    height: 485px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+.text{
+    color: white;
+    width: 25%;
+    margin-right: 30px;
+}
+.text h1{
+    font-family: "El Messiri";
+    line-height: 1;
+}
+.text p{
+    padding-top: 10px;
+    line-height: .8;
+}
+.text button{
+    background: rgb(114, 255, 184) ;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    font-family: "El Messiri";
+    transition: .5s ease-in-out;
+}
+.text button:hover{
+    background: rgba(0, 0, 0, 0.623);
+    color: white;
+    
+}
+
+.card img{
+    margin-left: 5px;
+    height: 220px;
+}
+.card{
+    width: 37%;
+}
+.seçao h1{
+    text-transform: uppercase;
+    padding-top: 25px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.698);
+    font-size: 30px;
+    
+}
+.seçao p{
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.698);
+}
+
+.seçao{
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;    
+    line-height: 1.5;
+}
+
+.art{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.art img{
+    height: 150px;
+}
+article button{
+    color: white;
+    margin-top: 5px;
+    background: rgb(81, 221, 151);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    transition: .2s ease-in-out;
+}
+article button:hover{
+    background: rgba(0, 0, 0, 0.623);
+    color: rgb(106, 255, 180);
+}
+article div{
+    border-radius: 15px;
+    padding: 10px;
+    background: rgba(12, 14, 13, 0.383);
+}
+.person{
+    height: 300px;
+    margin: 100px 0px;
+
+}
+.art-2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.art-2 img{
+    margin-right: 25px;
+    height: 220px;
+}
+.text-2{
+    text-align: justify;
+    margin-left: 25px;
+    color: whitesmoke;
+    width: 40%;
+    line-height: 1.4;
+}
+.text-2 h2{
+    font-size: 30px;
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    
+ 
+}
+
+.fa-facebook-square{
+  padding: 7px 10px;
+  transition: .2s ease-in;
+  border-radius: 50%;
+  color: white;
+
+  
+}
+.fa-facebook-square:hover{
+    color: rgb(14, 14, 131);
+    background: linear-gradient(50deg, #2f4546d7, #25dafae3);
+    border: 2px solid rgba(0, 0, 0, 0.445);
+}
+.fa-instagram{
+    padding: 7px 10px;
+    transition: .2s ease-in;
+    border-radius: 50%;
+    color: white;
+}
+.fa-instagram:hover{
+    color:  #5b296e;
+    background: linear-gradient(50deg, #f5fd80d0, #c70dffc5);
+    border: 2px solid rgba(0, 0, 0, 0.445);
+}
+.fa-linkedin{
+    padding: 7px 10px;
+    transition: .2s ease-in;
+    border-radius: 50%;
+    color: white;
+}
+.fa-linkedin:hover{
+    color:  #0a6f88;
+    background: linear-gradient(50deg, #43f5ecaf, #c2c2c2b7);
+    border: 2px solid rgba(0, 0, 0, 0.445);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.657);
+    height: 70px;
+    padding: 20px;
+    
+}
+
+@media screen and (max-width:848px){
+    .container{
+        width: 100%;
+    }
+    .one{
+        display: flex;
+        height: 100px;
+        flex-wrap: wrap;
+        width: 100%;
+       
+    }
+    .logo{
+        margin: 0 auto;
+        
+    }
+    .ul{
+        justify-content: center;
+    }
+    .main{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        margin: 50px auto;
+        
+    }
+    .text{
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 35px;
+        width: 70%;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card img{
+        margin-left: 0px;
+        height: 250px;
+ 
+    }
+    .nav{
+        height: 250px;
+    }
+    .art{
+        flex-direction: column;
+        margin: 300px 0;
+    }
+    article{
+        margin-top: 25px;
+    }
+    .art-2{
+        flex-direction: column-reverse;
+        margin: 500px 0;
+       
+    }
+    .art-2 img{
+        margin-top: 25px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .text-2{
+        width: 70%;
+        text-align: left;
+    }
+    .icon{
+    
+       height: 150px;
+       margin: 0 auto;
+        width: 100%;
+        margin-right: 0;
+    }
+    .icon div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:490px){
+    .card img{
+        height: 150px;
+    }
+}
+@media screen and (max-width:440px){
+    .logo{
+        flex-direction: column;
+    }
+}
